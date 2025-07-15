@@ -10,7 +10,7 @@ export default function Providers({ children }: React.PropsWithChildren) {
     <AppRouterCacheProvider options={{ key: 'mui' }}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <div className={`${recursive.className} ${outfit.className}`}>
+        <div className={`${recursive.variable} ${outfit.variable}`}>
           {children}
         </div>
       </ThemeProvider>
